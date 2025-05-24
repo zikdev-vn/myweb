@@ -1,0 +1,42 @@
+# FastAPI và các dependency chính
+fastapi==0.110.1
+uvicorn==0.29.0
+
+# Flask (nếu vẫn dùng song song cho auth hoặc phần cũ)
+flask==3.0.2
+flask-jwt-extended==4.6.0
+
+# ORM - SQLAlchemy
+sqlalchemy==2.0.30
+
+# SQLite support (mặc định đã có trong Python, không cần cài nếu không dùng thêm)
+# Nếu bạn dùng PostgreSQL hoặc MySQL thì cần cài driver tương ứng
+
+# Giao tiếp HTTP
+requests==2.31.0
+
+# Hashing password
+werkzeug==3.0.2
+
+# Pydantic cho schema validation
+pydantic==1.10.13
+pydantic-settings==2.2.1
+
+# Cho xử lý JWT token (dùng để decode nếu cần)
+python-jose==3.3.0
+PyJWT==2.8.0
+
+# CORS middleware cho FastAPI
+python-multipart==0.0.9
+itsdangerous==2.2.0
+
+# Gói cho static files (nếu serve ảnh)
+aiofiles==23.2.1
+flask_cors
+flask_sqlalchemy
+# Cho dotenv nếu dùng .env file (tùy chọn)
+python-dotenv==1.0.1
+flasggerer
+fastapi-limiter
+fastapi_jwt_auth
+
